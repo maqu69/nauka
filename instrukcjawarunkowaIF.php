@@ -30,7 +30,7 @@ if($a > $b) {
         echo "i od $c<br>"; #Powinien zostać wyświetlony napis "6 jest większe od 5 i od 1"
 }
 
-echo "-----grupowanie warunkow-------<br>";
+echo "-----grupowanie warunkowe-------<br>";
 
 $z = 6;
 $x = 5;
