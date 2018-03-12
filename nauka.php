@@ -29,7 +29,7 @@
 
 
     echo "----------------Operatory------------------<br>";
-    
+
 
 
     echo "----------------operator przypisywania----------<br>";
@@ -71,15 +71,17 @@
     echo "Powinno być 4: " . $abc   . "<br>";
 
     echo "---------------------operator logiczne--------------<br>";
-    /*  $a && $b 	AND 	Prawda, jeśli $a i $b są prawdą
+      /*$a && $b 	AND 	Prawda, jeśli $a i $b są prawdą
         $a || $b 	OR  	Prawda, jeśli $a lub $b są prawdą
         ! $a 	    NOT 	Prawda, jeśli $a nie jest prawdą
-    */
+      */
     echo "---------------------operator ciagu-----------------<br>";
     $zmienna1 = "Wartosc zmiennej 'zmienna2' to ";
     $zmienna2 = 5;
 
-    echo $zmienna1.$zmienna2;
+    echo "$zmienna1.$zmienna2 <br>";
+
+
 
 
 
