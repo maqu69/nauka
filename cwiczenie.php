@@ -1,7 +1,7 @@
 <html>
 <head></body>
 <body>
-Podaj liczbe sekund<br />
+Podaj liczbe sekundow<br />
 <form action="sekundy.php" method="post">
     <input type="text" name="sekundy"><br />
     <input type="submit" method="post" value="Wyslij" />
