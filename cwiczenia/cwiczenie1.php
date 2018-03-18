@@ -24,8 +24,12 @@ wypisz(1,2,3,4,5,6);
 
 
 function rentCost($days){
-    if ($days=1; $days
-    echo "wynajecie pokoju kosztuje "
+    $days = func_get_args();
+    if ($days=1)
+        echo "wynajem pokoju na 1 dobe wynosi 200zl";
+    else ($days=2  $days=3)
+        echo
+
 }
 
 
