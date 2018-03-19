@@ -6,9 +6,6 @@ function rentCost($days){
 
     }
 
-
-
-
 }
 
 
