@@ -1,13 +1,5 @@
 <?php
 
-function rentcost($days){
-    echo "wynajem trwa 1 dzien, koszt pobytu 200zl";
-}
-
-
-echo rentcost();
-
-
 
 
 function wypisz($a){
@@ -23,36 +15,11 @@ wypisz(1,2,3,4,5,6);
 
 
 
-function rentCost($days){
-    $days = func_get_args();
-    if ($days=1)
-        echo "wynajem pokoju na 1 dobe wynosi 200zl";
-    else ($days=2  $days=3)
-        echo
-
-}
-
-
-
-
-
-
-
-
 
 
 
 ?>
 
-
-
-
-
-
-
-
-
-?>
 
 
 
