@@ -9,21 +9,11 @@
     <input type="submit" name="button" value="wyslij">
     <?php
         $days=$_POST['days'];
-        echo 'Witam ' .$days;
 
         $pk1=200;
         $pk23=180;
         $pk4567=160;
         $pk8=150;
-
-        function($days){
-            if($days=1) {
-                
-            }
-
-
-        }
-
 
 
 
