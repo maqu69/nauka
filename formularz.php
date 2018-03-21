@@ -1,17 +1,29 @@
 <html>
 <head>
-    <title>Kurs php - podstawy</title>
-    <meta http-equiv="content-type" content="text/html"; charset="utf-8" />
-    <meta name="description" content="kurs php">
-    <meta name="keywords" content="html, php, kurs">
+    <title>Zadanie nr 1</title>
 </head>
 <body>
-    <form action="formularz.php" method="POST">
-        <p>Podaj imie;</p>
-        <input type="text" name="imie"><br>
-        <input type="submit" name="button" value="wyslij">
+<form action="" method="POST">
+    <p>Podaj ile pokoi chcesz wynajac: </p>
+    <input type="text" name="days"><br>
+    <input type="submit" name="button" value="wyslij">
+    <?php
+        $days=$_POST['days'];
 
-    </form>
+        $pk1=200;
+        $pk23=180;
+        $pk4567=160;
+        $pk8=150;
+
+
+
+
+
+    ?>
+
+
+
+</form>
 
 </body>
 </html>
