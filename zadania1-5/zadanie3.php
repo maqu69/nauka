@@ -34,6 +34,8 @@
         $kwota=$kwota-1;
     }
 if(isset($_POST['kwota'])) {
+    echo "Podana kwota to: ".$_POST['kwota'];
+    echo "<br>";
     echo "Banknotow 10 zlotowych znajduje sie : " . $dyszki;
     echo "<br>";
     echo "Banknotow 5 zlotowych znajduje sie : " . $piatki;
