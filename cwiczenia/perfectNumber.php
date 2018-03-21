@@ -1,6 +1,6 @@
 <?php
 
-     $n=496;
+     $n=50; // liczba ktora podajemy aby sprawdzic czy jest doskonala
 
      for ($i=1; $i<=$n; $i++) {
          $suma = 0;
@@ -9,7 +9,7 @@
                  $suma = $suma + $j;
              }
          if ($suma == $n) {
-             echo "Liczba $n jest liczba doskonala";
+             echo "liczba jest doskonala";
              return false;
          }
 
