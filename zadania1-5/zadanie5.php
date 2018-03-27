@@ -27,7 +27,7 @@ function rockpaperscissors($player1, $player2)
     else return 'wrong input';
 }
 
-echo rockpaperscissors(paper, rock );
+echo rockpaperscissors('paper', 'rock');
 
 
 ?>

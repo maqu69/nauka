@@ -1,6 +1,6 @@
 <?php
 class jablko {
-    var $kolor = "czerwony"; // wartosci nei musimy dopisywac, jesli podajemy w funkcji zmienne $jakie, $ilewazy
+    var $kolor = 'czerwony'; // wartosci nei musimy dopisywac, jesli podajemy w funkcji zmienne $jakie, $ilewazy
     var $waga = 5; // wartosci nei musimy dopisywac, jesli podajemy w funkcji zmienne $jakie, $ilewazy
 
     function jablko($jakie, $ilewazy){
