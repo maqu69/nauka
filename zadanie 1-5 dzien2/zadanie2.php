@@ -2,13 +2,23 @@
 
 
 
-
 function exchange($val){ // val = zlotowki
     $plntousd = 3.40;
-    return $dolary = $plntousd*$val;
+
+    static $counter=0;
+            $counter++;
+    $dolars=$val*$plntousd;
+
+
+    echo "Wymiana nr $counter dla $val złotówek po kursie $plntousd da $dolars dolarów";
 
 }
 
-echo exchange( 50);
+
+ exchange( 30);
+
+
+
+
 
 ?>

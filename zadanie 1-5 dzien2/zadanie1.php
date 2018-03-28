@@ -13,6 +13,6 @@ $height = 5;
 
     triangleaera(10, 5);
 
-echo "Pole trojkata o boku ".$bok," i wysokosci ".$wysokosc," wynosi ".$pole; -
+echo "Pole trojkata o boku ".$bok," i wysokosci ".$wysokosc," wynosi ".$pole;
 
 ?>
